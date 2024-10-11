@@ -6,10 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Exercise 04 - Form</title>
   </head>
+  <h1>Form</h1>
   <body>
     <main>
       <form action="/submit">
         <!-- Add your code here -->
+        <label for="name">Name: </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Full Name"
+        /><br />
+        <label for="email">Email: </label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="name@pdx.edu"
+        /><br />
+        <!--Stuff around box + text -->
+        <p>Favorite Character:</p>
+        <div>
+          <input type="radio" id="spongebob" name="FavChara" />
+          <label for="spongebob">Spongebob</label> <br />
+          <input type="radio" id="sandy" name="FavChara" />
+          <label for="sandy">Sandy</label> <br />
+          <input type="radio" id="patrick" name="FavChara" />
+          <label for="patrick">Patrick</label> <br />
+        </div>
+        <p>Are you a fan of the show?</p>
+        <div>
+          <input type="checkbox" id="episodes" name="ShowFan" />
+          <label for="episodes">Yes, I have watched all episodes!</label> <br />
+          <input type="checkbox" id="memes" name="ShowFan" />
+          <label for="memes">Yes, it's got the best memes.</label>
+        </div>
+        <br />
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
       </form>
     </main>
   </body>
