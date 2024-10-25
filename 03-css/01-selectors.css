@@ -14,8 +14,37 @@ li[class] {
   color: var(--red);
 }
 
+li[id] {
+  color: var(--teal);
+}
+
+li[class="parrot"] {
+  color: var(--green);
+}
+
+li[class*="do"] {
+  color: var(--royalblue);
+}
+
+li[class$="og"] {
+  color: var(--darkmagenta);
+}
+
 /* Use descendant, child, and sibling selectors for the second part */
 
 section li {
   color: var(--green);
+}
+
+ol > li[class="first"] {
+  color: var(--green);
+}
+
+li[class="second"],
+li[class="second"] ~ li {
+  color: var(--darkmagenta);
+}
+
+li[class="second"] + li {
+  color: var(--royalblue);
 }
