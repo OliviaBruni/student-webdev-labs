@@ -4,3 +4,48 @@
     color: var(--white);
   }
 }
+
+@media (max-width: 1024px) {
+  body {
+    background: var(--orange);
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background: var(--purple);
+    color: var(--white);
+  }
+
+  nav a {
+    float: none;
+    text-align: left;
+    width: 100%;
+    text-decoration: none;
+    font-size: 23px;
+  }
+}
+
+nav {
+  text-align: center;
+  background: var(--black);
+  color: var(--white);
+  overflow: hidden;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+}
