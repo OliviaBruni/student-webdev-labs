@@ -1,18 +1,107 @@
 .flex-container {
   background-color: rgb(190, 190, 231);
+  display: flex;
+}
+
+.flex-item {
+  background-color: darkmagenta;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 48px;
+  padding: 0px 38px 45px 38px;
+  margin: 5px;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
 }
 
 /* Flex Container 1 */
+.flex-container-1 {
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 /* Flex Container 2 */
+.flex-container-2 {
+  justify-content: right;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
 
 /* Flex Container 3 */
+.flex-container-3 {
+  justify-content: right;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  display: inline-flex;
+  height: 500px;
+  width: 100%;
+}
 
-/* use height: 400px; on the container */
+.vert-break {
+  height: 100%;
+  width: calc(-450px + 100%);
+}
+
+.item9 {
+  height: 100%;
+  padding: 100px;
+  background-color: transparent;
+}
+
+.flex-container-3 .flex-item {
+  margin-right: 10px;
+}
+
+.flex-container-3 .item4,
+.flex-container-3 .item8 {
+  margin-top: 70px;
+}
+
+.flex-container-3 .item1,
+.flex-container-3 .item5 {
+  margin-bottom: 0px;
+}
+/* use height: 500px; on the container */
 
 /* Flex Container 4 */
+.flex-container-4 {
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+}
+
+.flex-container-4 .flex-item {
+  margin: 5px 10px;
+}
+
+.space {
+  padding: 30px;
+}
 
 /* Flex Container 5 */
+.flex-container-5 {
+  justify-content: center;
+  align-items: baseline;
+}
+
+.flex-container-5 .flex-item {
+  padding: 0px 20px;
+}
+
+.flex-container-5 .item4,
+.flex-container-5 .item5,
+.flex-container-5 .item7 {
+  padding-bottom: 40px;
+}
+
+.flex-container-5 .item1,
+.flex-container-5 .item3,
+.flex-container-5 .item6 {
+  padding-bottom: 60px;
+}
 
 /* Flex Container 6 */
 

@@ -23,3 +23,7 @@ Edit the markdown and add an x to each completed task.
 
 - [ ] Uncompleted task
 - [x] Completed task
+
+TO DO LIST:
+
+1. Re-do items to adjust properly when screen adjusts
