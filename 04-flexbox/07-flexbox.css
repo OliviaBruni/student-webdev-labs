@@ -84,7 +84,7 @@
 /* Flex Container 5 */
 .flex-container-5 {
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
 }
 
 .flex-container-5 .flex-item {
@@ -100,13 +100,24 @@
 .flex-container-5 .item1,
 .flex-container-5 .item3,
 .flex-container-5 .item6 {
-  padding-bottom: 60px;
+  padding-bottom: 80px;
+}
+
+.flex-container-5 .item2,
+.flex-container-5 .item8 {
+  padding-bottom: 120px;
 }
 
 /* Flex Container 6 */
+.flex-container-6 {
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 300px;
+  text-align: center;
+}
 
 .flex-container-6 .flex-item {
-  width: 400px;
+  height: 40px;
 }
 
 /* use height: 300px; on the container */
