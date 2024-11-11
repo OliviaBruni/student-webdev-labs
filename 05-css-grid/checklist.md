@@ -4,17 +4,18 @@ Prior to turning in your assignment, complete the following checklist in regards
 
 #### Accessibility Code Check
 
-- [ ] Use the Wave AIM browser extension to run an accessibility audit on your completed solutions.
+- [x] Use the Wave AIM browser extension to run an accessibility audit on your completed solutions.
 
 #### Valid Code Check
 
-- [ ] Check that your HTML code is valid using the w3c validator.
-- [ ] Check that your CSS code is valid using the w3c validator.
+- [x] Check that your HTML code is valid using the w3c validator.
+<!--^ was given section heading warnings, otherwise code is valid. There was not much to be done with these warnings given the semantic setup of the HTML file.-->
+- [x] Check that your CSS code is valid using the w3c validator.
 
 #### Formatted Code Check
 
-- [ ] Use Prettier to properly format your HTML code.
-- [ ] Use Prettier to properly format your CSS code.
+- [x] Use Prettier to properly format your HTML code.
+- [x] Use Prettier to properly format your CSS code.
 - [ ] Use Prettier to properly format your JavaScript code.
 
 #### How to update this markdown document?

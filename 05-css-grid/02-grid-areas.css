@@ -6,19 +6,35 @@
   grid-area: article;
 }
 
+.aside {
+  grid-area: aside;
+}
+
+.section {
+  grid-area: section;
+}
+
+.footer {
+  grid-area: footer;
+}
+
 .grid-container {
   display: grid;
   height: 97vh;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
   gap: 10px;
   grid-template-areas:
-    'header'
-    'article'
-    'article'
-    'section'
-    'section'
-    'section'
-    'aside'
-    'footer';
+    "header header header header"
+    "aside article article article"
+    "aside article article article"
+    "aside article article article"
+    "section section section section"
+    "section section section section"
+    "footer footer footer footer";
+}
+
+.grid-item {
+  border-radius: 10px;
+  text-align: left;
 }
