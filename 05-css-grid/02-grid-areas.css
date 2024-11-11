@@ -38,3 +38,33 @@
   border-radius: 10px;
   text-align: left;
 }
+
+@media (max-width: 1024px) {
+  .grid-container {
+    grid-template-areas:
+      "header header header header"
+      "article article article aside"
+      "article article article aside"
+      "article article article aside"
+      "section section section section"
+      "section section section section"
+      "footer footer footer footer";
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas:
+      "header"
+      "article"
+      "article"
+      "article"
+      "section"
+      "section"
+      "section"
+      "aside"
+      "footer";
+  }
+}
