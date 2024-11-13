@@ -23,3 +23,7 @@ Edit the markdown and add an x to each completed task.
 
 - [ ] Uncompleted task
 - [x] Completed task
+
+TO DO LIST:
+use tags that are more descriptive
+02-04
