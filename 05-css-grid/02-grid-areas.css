@@ -52,7 +52,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .grid-container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 1fr);

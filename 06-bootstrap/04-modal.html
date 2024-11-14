@@ -12,44 +12,42 @@
     <link rel="stylesheet" href="../_styles/styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   </head>
-  <body>
+  <body class="container text-center">
     <h1>04 - Bootstrap Modal</h1>
     <!-- Add your code here -->
-    <div class="container text-center pt-5">
-      <p>Click on the button below for more information inside a modal</p>
-      <button
-        type="button"
-        class="btn btn-primary mt-2"
-        data-bs-toggle="modal"
-        data-bs-target="#more-details"
-      >
-        More details
-      </button>
-    </div>
-    <div class="modal" id="more-details" tabindex="-1">
+    <p class="pt-5">
+      Click on the button below for more information inside a modal
+    </p>
+    <button
+      type="button"
+      class="btn btn-primary mt-2"
+      data-bs-toggle="modal"
+      data-bs-target="#more-details"
+    >
+      More details
+    </button>
+    <section class="modal" id="more-details" tabindex="-1">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">More Details</h5>
+          <header class="modal-header">
+            <h2 class="modal-title h5">More Details</h2>
             <button
               type="button"
               class="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
-          </div>
-          <div class="modal-body">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              imperdiet leo lacinia, iaculis risus tempus, maximus metus. In
-              finibus, tellus vitae dapibus lacinia, risus risus fringilla
-              turpis, vel ullamcorper leo nulla placerat risus. Maecenas eget
-              enim mauris. Fusce varius, orci non convallis eleifend, ante quam
-              luctus mauris, a feugiat tellus tortor id nibh.
-            </p>
-          </div>
+          </header>
+          <p class="modal-body px-3 pt-3 text-start">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            imperdiet leo lacinia, iaculis risus tempus, maximus metus. In
+            finibus, tellus vitae dapibus lacinia, risus risus fringilla turpis,
+            vel ullamcorper leo nulla placerat risus. Maecenas eget enim mauris.
+            Fusce varius, orci non convallis eleifend, ante quam luctus mauris,
+            a feugiat tellus tortor id nibh.
+          </p>
         </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>
